@@ -1,0 +1,8 @@
+Steps for running Glim
+
+ros2 run glim_ros glim_rosnode
+
+#If not configured in the src
+ros2 run glim_ros glim_rosnode --ros-args -p config_path:=$(realpath ~/config)
+
+If you edit the config in the ~/ros2_ws/src/glim folder then when you build the app and re-source ros you can just use "ros2 run glim_ros glim_rosnode" for the config

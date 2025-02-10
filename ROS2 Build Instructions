@@ -1,0 +1,7 @@
+How to build ROS2 packages:
+1. Navigate to ~/ros2_ws in the terminal
+2. Type "colcon build"
+
+How to build a specific package in ROS2 (without building all the others)
+1. Navigate to ~/ros2_ws in the terminal
+2. Type "colcon build --packages-select packageName" where packageName is the name of your package
